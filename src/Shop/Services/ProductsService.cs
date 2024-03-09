@@ -15,6 +15,16 @@ namespace Shop.Services
             Add(new Product { Name = "Butter", Amount = 10, Price = 3 });
         }
 
+        public bool Exists(string id)
+        {
+            return _products.Any(p => p.Id == id);
+        }
+
+        public Product? Get(string id)
+        {
+            return _products.FirstOrDefault(p => p.Id == id);
+        }
+
         public IEnumerable<Product> GetAll()
         {
             return _products;

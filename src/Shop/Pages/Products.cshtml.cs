@@ -32,6 +32,7 @@ namespace Shop.Pages
                     _productsService.Add(Product);
                 }
 
+                Product = null;
                 ModelState.Clear();
             }
         }
