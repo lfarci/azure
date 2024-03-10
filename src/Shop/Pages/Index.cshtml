@@ -4,7 +4,18 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <h1>Shop</h1>
+    <p>Welcome to the shop</p>
+    <p>ID Token: @Model.Profile.IdToken</p>
+    <p>Access token: @Model.Profile.AccessToken</p>
+    <p>Expires on: @Model.Profile.ExpiresOn</p>
+    <p>Refresh token: @Model.Profile.RefreshToken</p>
+    <p>Name: @Model.Profile.Name</p>
+
+    <p>Principal:</p>
+    @foreach (var claim in Model.Principal!.Claims)
+    {
+        <p>@claim.Type: @claim.Value</p>
+    }
 </div>
