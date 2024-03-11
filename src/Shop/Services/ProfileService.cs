@@ -6,10 +6,9 @@ namespace Shop.Services
 {
     public class ProfileService
     {
-        private static readonly string _claimsBaseUrl = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/";
-        private static readonly string _objectIdentifier = _claimsBaseUrl + "objectidentifier";
-        private static readonly string _name = _claimsBaseUrl + "name";
-        private static readonly string _emailAddress = _claimsBaseUrl + "emailaddress";
+        private static readonly string _objectIdentifier = "http://schemas.microsoft.com/identity/claims/objectidentifier";
+        private static readonly string _name = "name";
+        private static readonly string _emailAddress = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress";
 
         private readonly ILogger<ProfileService> _logger;
 

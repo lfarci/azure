@@ -10,6 +10,7 @@
     @if (Model.HasProfile)
     {
         <p>Welcome to the shop @Model.Profile!.Name! 🎉</p>
+        <p>Your email is @Model.Profile!.EmailAddress. And your unique identifier is @Model.Profile.Id.</p>
     }
     else
     {
