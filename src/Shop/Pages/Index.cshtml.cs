@@ -24,6 +24,9 @@ namespace Shop.Pages
         public void OnGet()
         {
             Profile = _profileService.ReadProfile(Request);
+            _logger.LogInformation("Name: {Id}", Profile?.Id);
+            _logger.LogInformation("Name: {Name}", Profile?.Name);
+            _logger.LogInformation("Name: {Email}", Profile?.EmailAddress);
         }
     }
 }

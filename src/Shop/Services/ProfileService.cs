@@ -1,4 +1,5 @@
 ﻿using Shop.Models;
+using Shop.Pages;
 using System.Security.Claims;
 
 namespace Shop.Services
@@ -10,7 +11,14 @@ namespace Shop.Services
         private static readonly string _name = _claimsBaseUrl + "name";
         private static readonly string _emailAddress = _claimsBaseUrl + "emailaddress";
 
-        private string FindClaimValue(ClaimsPrincipal principal, string claimType)
+        private readonly ILogger<ProfileService> _logger;
+
+        public ProfileService(ILogger<ProfileService> logger)
+        {
+            _logger = logger;
+        }
+
+        private static string FindClaimValue(ClaimsPrincipal principal, string claimType)
         {
             return principal.FindFirst(claimType)?.Value ?? string.Empty;
         }
@@ -22,6 +30,8 @@ namespace Shop.Services
 
             if (principal is not null)
             {
+                _logger.LogInformation("Claims: {Claims}", string.Join(",", principal.Claims));
+
                 profile = new Profile
                 {
                     Id = FindClaimValue(principal, _objectIdentifier),
