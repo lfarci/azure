@@ -22,27 +22,40 @@ namespace Shop.Services
             return principal.FindFirst(claimType)?.Value ?? string.Empty;
         }
 
+        private bool HasClaimes(ClaimsPrincipal principal)
+        {
+            return principal.HasClaim(c => c.Type == _objectIdentifier) &&
+                principal.HasClaim(c => c.Type == _name) &&
+                principal.HasClaim(c => c.Type == _emailAddress);
+        }
+
         public Profile? ReadProfile(HttpRequest request)
         {
             var principal = ClaimsPrincipalParser.Parse(request);
-            Profile? profile = null;
 
-            if (principal is not null)
+            if (principal is not null && HasClaimes(principal))
             {
-                foreach (var claim in principal.Claims)
+                var profile = new Profile();
+
+                if (principal.HasClaim(c => c.Type == _objectIdentifier))
                 {
-                    _logger.LogInformation("Claim: {Type} {Value}", claim.Type, claim.Value);
+                    profile.Id = FindClaimValue(principal, _objectIdentifier);
                 }
 
-                profile = new Profile
+                if (principal.HasClaim(c => c.Type == _name))
                 {
-                    Id = FindClaimValue(principal, _objectIdentifier),
-                    Name = FindClaimValue(principal, _name),
-                    EmailAddress = FindClaimValue(principal, _emailAddress)
-                };
+                    profile.Name = FindClaimValue(principal, _name);
+                }
+
+                if (principal.HasClaim(c => c.Type == _emailAddress))
+                {
+                    profile.EmailAddress = FindClaimValue(principal, _emailAddress);
+                }
+
+                return profile;
             }
 
-            return profile;
+            return null;
         }
     }
 }

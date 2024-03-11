@@ -2,8 +2,8 @@
 {
     public record Profile
     {
-        public string? Id { get; init; }
-        public string? Name { get; init; }
-        public string? EmailAddress { get; init; }
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public string? EmailAddress { get; set; }
     }
 }
