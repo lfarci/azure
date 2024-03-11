@@ -30,7 +30,10 @@ namespace Shop.Services
 
             if (principal is not null)
             {
-                _logger.LogInformation("Claims: {Claims}", string.Join(",", principal.Claims));
+                foreach (var claim in principal.Claims)
+                {
+                    _logger.LogInformation("Claim: {Type} {Value}", claim.Type, claim.Value);
+                }
 
                 profile = new Profile
                 {
