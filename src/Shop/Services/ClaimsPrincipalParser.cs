@@ -27,11 +27,11 @@ public static class ClaimsPrincipalParser
         public IEnumerable<ClientPrincipalClaim>? Claims { get; set; }
     }
 
-    public static ClaimsPrincipal? Parse(HttpRequest req)
+    public static ClaimsPrincipal? Parse(HttpRequest request)
     {
         var principal = new ClientPrincipal();
 
-        if (req.Headers.TryGetValue("x-ms-client-principal", out var header))
+        if (request.Headers.TryGetValue("x-ms-client-principal", out var header))
         {
             var data = header[0];
 
@@ -41,8 +41,6 @@ public static class ClaimsPrincipalParser
                 var json = Encoding.UTF8.GetString(decoded);
                 principal = JsonSerializer.Deserialize<ClientPrincipal>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
             }
-
-
         }
 
         if (principal is not null)
@@ -51,7 +49,7 @@ public static class ClaimsPrincipalParser
             var claims = principal.Claims?.Select(c => new Claim(c.Type ?? string.Empty, c.Value ?? string.Empty));
 
             if (claims is not null)
-            { 
+            {
                 identity.AddClaims(claims);
             }
 
