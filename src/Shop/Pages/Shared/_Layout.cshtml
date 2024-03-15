@@ -46,6 +46,10 @@
             {
                 <span>(@ViewData["EnvironmentName"]) </span>
             })
+            @if (ViewData["Version"] != null)
+            {
+                <span>- @ViewData["Version"] </span>
+            })
             <span>- <a asp-area="" asp-page="/Privacy">Privacy</a></span>
         </div>
     </footer>

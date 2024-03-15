@@ -22,6 +22,7 @@ namespace Shop.Pages
         public Profile? Profile { get; private set; }
 
         public string? EnvironmentName => Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
+        public string? Version => Environment.GetEnvironmentVariable("APP_VERSION");
 
         public void OnGet()
         {
