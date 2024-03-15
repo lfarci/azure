@@ -41,7 +41,12 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Shop - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <span>&copy; 2024 - Shop </span>
+            @if (ViewData["EnvironmentName"] != null)
+            {
+                <span>(@ViewData["EnvironmentName"]) </span>
+            })
+            <span>- <a asp-area="" asp-page="/Privacy">Privacy</a></span>
         </div>
     </footer>
 

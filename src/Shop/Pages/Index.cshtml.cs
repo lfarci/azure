@@ -21,6 +21,8 @@ namespace Shop.Pages
 
         public Profile? Profile { get; private set; }
 
+        public string? EnvironmentName => Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
+
         public void OnGet()
         {
             Profile = _profileService.ReadProfile(Request);
