@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure Developer Associate.md",
+                "file": "Compute/Compute.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Compute/Azure App Service/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Compute/Azure App Service/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Compute/Azure App Service/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Compute/Azure App Service/Overview.md"
               }
             }
           }
@@ -161,22 +161,25 @@
   },
   "active": "8f369b50ccf30cfd",
   "lastOpenFiles": [
+    "Compute/Azure App Service/Deployment.md",
+    "Compute/Azure App Service/Azure App Service.md",
+    "Compute/Compute.md",
     "Azure Developer Associate.md",
+    "Compute/Azure Functions/Azure Functions.md",
+    "Compute/Azure Functions/Notes.md",
+    "Compute/Azure App Service/Overview.md",
+    "Compute/Azure App Service/Microsoft Learn.md",
+    "Microsoft Learn.md",
     "README.md",
     "Storage/Azure Cosmos DB",
     "Storage/Azure Blob Storage",
     "Security/Authentication and authorization/Microsoft Entra ID.md",
     "Security/Authentication and authorization",
     "Compute/Containers",
-    "Compute/Azure Functions/Notes.md",
     "Compute/Azure Functions",
-    "Compute/Azure App Service/Overview.md",
-    "Compute/Azure App Service/Microsoft Learn.md",
-    "Compute/Azure App Service/Deployment.md",
     "Compute/Azure App Service",
     "Welcome.md",
     "Resources.md",
-    "Microsoft Learn.md",
     "Storage",
     "Security",
     "Compute"

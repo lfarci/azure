@@ -3,6 +3,8 @@
 Exam: [Exam AZ-204: Developing Solutions for Microsoft Azure](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/)
 Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Azure](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204)
 
+# Overview
+- [[Compute]]
 # Skills
 ### Develop Azure compute solutions (25–30%)
 

@@ -1,0 +1,1 @@
+[Create serverless applications learning path - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/paths/create-serverless-applications/)
