@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release .\samples\src\Shop\Shop.csproj
 
       - name: dotnet publish
-        run:  dotnet build --configuration Release .\samples\src\Shop\Shop.csproj -o "${{env.GITHUB_WORKSPACE}}/myapp"
+        run:  dotnet publish -c Release .\samples\src\Shop\Shop.csproj -o "${{env.GITHUB_WORKSPACE}}/myapp"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
