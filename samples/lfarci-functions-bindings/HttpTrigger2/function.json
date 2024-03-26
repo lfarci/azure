@@ -1,0 +1,31 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "bookmark",
+      "direction": "in",
+      "type": "cosmosDB",
+      "connection": "lfarci-cosmos-db-account_DOCUMENTDB",
+      "databaseName": "func-io-learn-db",
+      "containerName": "Bookmarks",
+      "id": "{id}",
+      "partitionKey": "{id}",
+      "collectionName": "MyCollection",
+      "connectionStringSetting": "lfarci-cosmos-db-account_DOCUMENTDB"
+    }
+  ]
+}

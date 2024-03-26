@@ -1,0 +1,48 @@
+﻿{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "bookmark",
+      "direction": "in",
+      "type": "cosmosDB",
+      "partitionKey": "{id}",
+      "methods": [],
+      "databaseName": "func-io-learn-db",
+      "containerName": "Bookmarks",
+      "connection": "lfarci-cosmos-db-account_DOCUMENTDB",
+      "id": "{id}"
+    },
+    {
+      "name": "newbookmark",
+      "direction": "out",
+      "type": "cosmosDB",
+      "partitionKey": "/id",
+      "methods": [],
+      "databaseName": "func-io-learn-db",
+      "containerName": "Bookmarks",
+      "connection": "lfarci-cosmos-db-account_DOCUMENTDB"
+    },
+    {
+      "name": "newmessage",
+      "direction": "out",
+      "type": "queue",
+      "queueName": "bookmarks-post-process",
+      "methods": [],
+      "connection": "lfarcifunctions9a01_STORAGE"
+    }
+  ]
+}
