@@ -1,6 +1,6 @@
 $headers = @{
     'Content-Type' = 'application/json'
-    'x-functions-key' = 'Q4uA_GiJf9RtbYpNKmgo271guktVncY2di-UyyqRvSavAzFuBoRneg=='
+    'x-functions-key' = ''
 }
 
 $body = @{
