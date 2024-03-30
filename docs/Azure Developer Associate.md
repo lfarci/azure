@@ -7,7 +7,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 - [[Compute]]
 # Skills
 ### Develop Azure compute solutions (25–30%)
-
+[Preparing for AZ-204 - Develop Azure compute solutions (1 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-azure-compute-solutions-1-of-5)
 #### [Implement containerized solutions](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-containerized-solutions)
 - Create and manage container images for solutions
 - Publish an image to Azure Container Registry
@@ -24,6 +24,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 - Implement input and output bindings
 - Implement function triggers by using data operations, timers, and webhooks
 ### Develop for Azure storage (15–20%)
+[Preparing for AZ-204 - Develop for Azure storage (segment 2 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-for-azure-storage-segment-2-of-5)
 #### [Develop solutions that use Azure Cosmos DB](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-solutions-that-use-azure-cosmos-db)
 - Perform operations on containers and items by using the SDK
 - Set the appropriate consistency level for operations
@@ -34,6 +35,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 - Implement storage policies and data lifecycle management
 - Implement static website hosting
 ### Implement Azure security (20–25%)
+[Preparing for AZ-204 - Implement Azure security (segment 3 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-implement-azure-security-segment-3-of-5)
 #### [Implement user authentication and authorization](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-user-authentication-and-authorization)
 - Authenticate and authorize users by using the Microsoft Identity platform
 - Authenticate and authorize users and apps by using Microsoft Entra ID
@@ -44,7 +46,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 - Develop code that uses keys, secrets, and certificates stored in Azure Key Vault
 - Implement Managed Identities for Azure resources
 ### Monitor, troubleshoot, and optimize Azure solutions (15–20%)
-
+[Preparing for AZ-204 - Monitor, troubleshoot, and optimize Azure solutions (segment 4 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-monitor-troubleshoot-and-optimize-azure-solutions-segment-4-of-5)
 #### [Implement caching for solutions](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-caching-for-solutions)
 - Configure cache and expiration policies for Azure Cache for Redis
 - Implement secure and optimized application cache patterns including data sizing, connections, encryption, and expiration
@@ -54,6 +56,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 - Monitor and analyze metrics, logs, and traces
 - Implement Application Insights web tests and alerts
 ### Connect to and consume Azure services and third-party services (15–20%)
+[Preparing for AZ-204 - Connect to and consume Azure services and third-party services (segment 5 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-connect-to-and-consume-azure-services-and-third-party-services-segment-5-of-5)
 #### [Implement API Management](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-api-management)
 - Create an Azure API Management instance
 - Create and document APIs

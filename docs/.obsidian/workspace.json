@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compute/Azure Functions/Azure Functions.md",
+                "file": "Azure Developer Associate.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compute/Azure Functions/Azure Functions.md",
+                "file": "Azure Developer Associate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compute/Azure Functions/Azure Functions.md",
+                "file": "Azure Developer Associate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compute/Azure Functions/Azure Functions.md"
+                "file": "Azure Developer Associate.md"
               }
             }
           }
@@ -161,15 +161,16 @@
   },
   "active": "8f369b50ccf30cfd",
   "lastOpenFiles": [
+    "Microsoft Learn.md",
+    "Resources.md",
+    "Compute/Azure Functions/Azure Functions.md",
     "Compute/Azure App Service/Overview.md",
     "Compute/Azure App Service/Deployment.md",
     "Compute/Azure App Service/Azure App Service.md",
     "Compute/Compute.md",
     "Azure Developer Associate.md",
-    "Compute/Azure Functions/Azure Functions.md",
     "Compute/Azure Functions/Notes.md",
     "Compute/Azure App Service/Microsoft Learn.md",
-    "Microsoft Learn.md",
     "README.md",
     "Storage/Azure Cosmos DB",
     "Storage/Azure Blob Storage",
@@ -179,7 +180,6 @@
     "Compute/Azure Functions",
     "Compute/Azure App Service",
     "Welcome.md",
-    "Resources.md",
     "Storage",
     "Security",
     "Compute"
