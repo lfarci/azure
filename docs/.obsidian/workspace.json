@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "031162388d6445a5",
+        "id": "6ffd59e81b053a9c",
         "type": "tabs",
         "children": [
           {
-            "id": "7d3ec4d27097aaeb",
+            "id": "004ebda6ed749986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compute/Compute.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f369b50ccf30cfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure Developer Associate.md",
+                "file": "Compute/Azure Functions/Azure Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Developer Associate.md",
+                "file": "Compute/Azure Functions/Azure Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Developer Associate.md",
+                "file": "Compute/Azure Functions/Azure Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Developer Associate.md"
+                "file": "Compute/Azure Functions/Azure Functions.md"
               }
             }
           }
@@ -159,16 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f369b50ccf30cfd",
+  "active": "004ebda6ed749986",
   "lastOpenFiles": [
+    "Azure Developer Associate.md",
+    "Compute/Compute.md",
     "Microsoft Learn.md",
     "Resources.md",
     "Compute/Azure Functions/Azure Functions.md",
     "Compute/Azure App Service/Overview.md",
     "Compute/Azure App Service/Deployment.md",
     "Compute/Azure App Service/Azure App Service.md",
-    "Compute/Compute.md",
-    "Azure Developer Associate.md",
     "Compute/Azure Functions/Notes.md",
     "Compute/Azure App Service/Microsoft Learn.md",
     "README.md",
