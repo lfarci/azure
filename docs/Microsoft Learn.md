@@ -8,6 +8,8 @@ This page is about mapping relevant resources available on Microsoft Learn for t
 - [Manage resources in Azure](https://learn.microsoft.com/en-gb/training/paths/manage-resources-in-azure/?WT.mc_id=thomasmaurer-blog-thmaure)
 - [Deploy a website to Azure with Azure App Service](https://learn.microsoft.com/en-gb/training/paths/deploy-a-website-with-azure-app-service/?WT.mc_id=thomasmaurer-blog-thmaure)
 - [Secure your cloud data in Azure](https://learn.microsoft.com/en-gb/training/paths/secure-your-cloud-data/?WT.mc_id=thomasmaurer-blog-thmaure)
+
+[Course AZ-204T00--A: Developing Solutions for Microsoft Azure - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/courses/az-204t00)
 # Deployment
 https://learn.microsoft.com/en-us/training/paths/bicep-github-actions/
 
