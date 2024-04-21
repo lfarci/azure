@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microsoft Learn.md",
+                "file": "Compute/Azure App Service/Azure App Service.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4d319180655d16f8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microsoft Learn.md",
+                "file": "Compute/Azure App Service/Azure App Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microsoft Learn.md",
+                "file": "Compute/Azure App Service/Azure App Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microsoft Learn.md"
+                "file": "Compute/Azure App Service/Azure App Service.md"
               }
             }
           }
@@ -158,16 +148,18 @@
   },
   "active": "004ebda6ed749986",
   "lastOpenFiles": [
-    "Azure Developer Associate.md",
-    "Compute/Azure Functions/Azure Functions.md",
-    "Compute/Azure Functions/Bindings.md",
-    "Compute/Azure Functions/Web hooks.md",
-    "Compute/Compute.md",
-    "Microsoft Learn.md",
-    "Resources.md",
-    "Compute/Azure App Service/Overview.md",
     "Compute/Azure App Service/Deployment.md",
     "Compute/Azure App Service/Azure App Service.md",
+    "Compute/Azure Functions/Azure Functions.md",
+    "Compute/Compute.md",
+    "Azure Developer Associate.md",
+    "Compute/Containers/Containters.md",
+    "Compute/Azure Functions/Bindings.md",
+    "Compute/Azure Functions/Web hooks.md",
+    "Microsoft Learn.md",
+    "Prompt.md",
+    "Resources.md",
+    "Compute/Azure App Service/Overview.md",
     "Compute/Azure Functions/Notes.md",
     "Compute/Azure App Service/Microsoft Learn.md",
     "README.md",

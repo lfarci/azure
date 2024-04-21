@@ -6,23 +6,7 @@ Study guide: [Study guide for Exam AZ-204: Developing Solutions for Microsoft Az
 # Overview
 - [[Compute]]
 # Skills
-### Develop Azure compute solutions (25–30%)
-[Preparing for AZ-204 - Develop Azure compute solutions (1 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-azure-compute-solutions-1-of-5)
-#### [Implement containerized solutions](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-containerized-solutions)
-- Create and manage container images for solutions
-- Publish an image to Azure Container Registry
-- Run containers by using Azure Container Instance
-- Create solutions by using Azure Container Apps
-#### [Implement Azure App Service Web Apps](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-azure-app-service-web-apps)
-- Create an Azure App Service Web App
-- Enable diagnostics logging
-- Deploy code to a web app
-- Configure web app settings including Transport Layer Security (TLS), API settings, and connection strings
-- Implement autoscaling
-#### [Implement Azure Functions](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-azure-functions)
-- Create and configure an Azure Functions app
-- Implement input and output bindings
-- Implement function triggers by using data operations, timers, and webhooks
+
 ### Develop for Azure storage (15–20%)
 [Preparing for AZ-204 - Develop for Azure storage (segment 2 of 5)](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-for-azure-storage-segment-2-of-5)
 #### [Develop solutions that use Azure Cosmos DB](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-solutions-that-use-azure-cosmos-db)

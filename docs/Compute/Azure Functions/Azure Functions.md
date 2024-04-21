@@ -1,3 +1,30 @@
+
+
+
+# What should I learn?
+This is based on both the study guide for the basic outline. Details come from the associated Exam Readiness Zone video.
+
+- Create and configure an Azure Functions app
+	- Implement the function code
+	- Familiarity the structure of functions code and configuration
+	- Choose a pricing plan
+	- Manage scaling
+- Implement input and output bindings    
+	- Binding direction (`in` and `out` and `inout`)
+	- Configure various bindings and triggers for a function
+	- Configure a function app using `function.json` (JavaScript, Python, PowerShell)
+	- Configure a function app using in-line decorators in the code (C# and Java)
+- Implement function triggers by using data operations, timers, and webhooks
+	- Create different triggers and binding for different configurations and services
+	- Map the configured triggers and binding to the code in functions
+	- Understand how the function app configuration works with functions code
+
+
+# How should I learn?
+
+
+
+
 [Create serverless applications learning path - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/paths/create-serverless-applications/)
 
 
