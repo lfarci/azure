@@ -1,0 +1,242 @@
+[
+    {
+        "labelDescription": "Develop message-based solutions",
+        "labelName": "message-based",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Implement solutions that use Azure Queue Storage queues"
+    },
+    {
+        "labelDescription": "Develop message-based solutions",
+        "labelName": "message-based",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Implement solutions that use Azure Service Bus"
+    },
+    {
+        "labelDescription": "Develop event-based solutions",
+        "labelName": "event-based",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Implement solutions that use Azure Event Hub"
+    },
+    {
+        "labelDescription": "Develop event-based solutions",
+        "labelName": "event-based",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Implement solutions that use Azure Event Grid"
+    },
+    {
+        "labelDescription": "Implement API Management",
+        "labelName": "api-management",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Implement policies for APIs"
+    },
+    {
+        "labelDescription": "Implement API Management",
+        "labelName": "api-management",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Configure access to APIs"
+    },
+    {
+        "labelDescription": "Implement API Management",
+        "labelName": "api-management",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Create and document APIs"
+    },
+    {
+        "labelDescription": "Implement API Management",
+        "labelName": "api-management",
+        "milestone": "Connect to and consume Azure services and third-party services",
+        "title": "Create an Azure API Management instance"
+    },
+    {
+        "labelDescription": "Troubleshoot solutions by using Application Insights",
+        "labelName": "insights",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Implement Application Insights web tests and alerts"
+    },
+    {
+        "labelDescription": "Troubleshoot solutions by using Application Insights",
+        "labelName": "insights",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Monitor and analyze metrics, logs, and traces"
+    },
+    {
+        "labelDescription": "Troubleshoot solutions by using Application Insights",
+        "labelName": "insights",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Configure an app or service to use Application Insights"
+    },
+    {
+        "labelDescription": "Implement caching for solutions",
+        "labelName": "caching",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Implement Azure Content Delivery Network endpoints and profiles"
+    },
+    {
+        "labelDescription": "Implement caching for solutions",
+        "labelName": "caching",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Implement secure and optimized application cache patterns including data sizing, connections, encryption, and expiration"
+    },
+    {
+        "labelDescription": "Implement caching for solutions",
+        "labelName": "caching",
+        "milestone": "Monitor, troubleshoot, and optimize Azure solutions",
+        "title": "Configure cache and expiration policies for Azure Cache for Redis"
+    },
+    {
+        "labelDescription": "Implement secure Azure solutions",
+        "labelName": "secure-solutions",
+        "milestone": "Implement Azure security",
+        "title": "Implement Managed Identities for Azure resources"
+    },
+    {
+        "labelDescription": "Implement secure Azure solutions",
+        "labelName": "secure-solutions",
+        "milestone": "Implement Azure security",
+        "title": "Develop code that uses keys, secrets, and certificates stored in Azure Key Vault"
+    },
+    {
+        "labelDescription": "Implement secure Azure solutions",
+        "labelName": "secure-solutions",
+        "milestone": "Implement Azure security",
+        "title": "Secure app configuration data by using App Configuration or Azure Key Vault"
+    },
+    {
+        "labelDescription": "Implement user authentication and authorization",
+        "labelName": "authentication-and-authorization",
+        "milestone": "Implement Azure security",
+        "title": "Implement solutions that interact with Microsoft Graph"
+    },
+    {
+        "labelDescription": "Implement user authentication and authorization",
+        "labelName": "authentication-and-authorization",
+        "milestone": "Implement Azure security",
+        "title": "Authenticate and authorize users and apps by using Microsoft Entra ID"
+    },
+    {
+        "labelDescription": "Implement user authentication and authorization",
+        "labelName": "authentication-and-authorization",
+        "milestone": "Implement Azure security",
+        "title": "Create and implement shared access signatures"
+    },
+    {
+        "labelDescription": "Implement user authentication and authorization",
+        "labelName": "authentication-and-authorization",
+        "milestone": "Implement Azure security",
+        "title": "Authenticate and authorize users by using the Microsoft Identity platform"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Blob Storage",
+        "labelName": "blob-storage",
+        "milestone": "Develop for Azure storage",
+        "title": "Implement static website hosting"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Blob Storage",
+        "labelName": "blob-storage",
+        "milestone": "Develop for Azure storage",
+        "title": "Implement storage policies and data lifecycle management"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Blob Storage",
+        "labelName": "blob-storage",
+        "milestone": "Develop for Azure storage",
+        "title": "Perform operations on data by using the appropriate SDK"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Blob Storage",
+        "labelName": "blob-storage",
+        "milestone": "Develop for Azure storage",
+        "title": "Set and retrieve properties and metadata"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Cosmos DB",
+        "labelName": "cosmos-db",
+        "milestone": "Develop for Azure storage",
+        "title": "Implement change feed notifications"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Cosmos DB",
+        "labelName": "cosmos-db",
+        "milestone": "Develop for Azure storage",
+        "title": "Set the appropriate consistency level for operations"
+    },
+    {
+        "labelDescription": "Develop solutions that use Azure Cosmos DB",
+        "labelName": "cosmos-db",
+        "milestone": "Develop for Azure storage",
+        "title": "Perform operations on containers and items by using the SDK"
+    },
+    {
+        "labelDescription": "Implement Azure Functions",
+        "labelName": "function",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Implement function triggers by using data operations, timers, and webhooks"
+    },
+    {
+        "labelDescription": "Implement Azure Functions",
+        "labelName": "function",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Implement input and output bindings"
+    },
+    {
+        "labelDescription": "Implement Azure Functions",
+        "labelName": "function",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Create and configure an Azure Functions app"
+    },
+    {
+        "labelDescription": "Implement Azure App Service Web Apps",
+        "labelName": "app-service",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Configure web app settings including Transport Layer Security (TLS), API settings, and connection strings"
+    },
+    {
+        "labelDescription": "Implement Azure App Service Web Apps",
+        "labelName": "app-service",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Deploy code to a web app"
+    },
+    {
+        "labelDescription": "Implement Azure App Service Web Apps",
+        "labelName": "app-service",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Create an Azure App Service Web App"
+    },
+    {
+        "labelDescription": "Implement Azure App Service Web Apps",
+        "labelName": "app-service",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Enable diagnostics logging"
+    },
+    {
+        "labelDescription": "Implement Azure App Service Web Apps",
+        "labelName": "app-service",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Implement autoscaling"
+    },
+    {
+        "labelDescription": "Implement containerized solutions",
+        "labelName": "container",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Create solutions by using Azure Container Apps"
+    },
+    {
+        "labelDescription": "Implement containerized solutions",
+        "labelName": "container",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Run containers by using Azure Container Instance"
+    },
+    {
+        "labelDescription": "Implement containerized solutions",
+        "labelName": "container",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Publish an image to Azure Container Registry"
+    },
+    {
+        "labelDescription": "Implement containerized solutions",
+        "labelName": "container",
+        "milestone": "Develop Azure compute solutions",
+        "title": "Create and manage container images for solutions"
+    }
+]

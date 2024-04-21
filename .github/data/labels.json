@@ -1,0 +1,62 @@
+﻿[
+    {
+        "color": "b60205",
+        "description": "Implement containerized solutions",
+        "name": "container"
+    },
+    {
+        "color": "62B4C8",
+        "description": "Implement Azure App Service Web Apps",
+        "name": "app-service"
+    },
+    {
+        "color": "BBBFB8",
+        "description": "Implement Azure Functions",
+        "name": "function"
+    },
+    {
+        "color": "C5F9AB",
+        "description": "Develop solutions that use Azure Cosmos DB",
+        "name": "cosmos-db"
+    },
+    {
+        "color": "4F0188",
+        "description": "Develop solutions that use Azure Blob Storage",
+        "name": "blob-storage"
+    },
+    {
+        "color": "3A761B",
+        "description": "Implement user authentication and authorization",
+        "name": "authentication-and-authorization"
+    },
+    {
+        "color": "6DDF84",
+        "description": "Implement secure Azure solutions",
+        "name": "secure-solutions"
+    },
+    {
+        "color": "7F3AFA",
+        "description": "Implement caching for solutions",
+        "name": "caching"
+    },
+    {
+        "color": "A7C09B",
+        "description": "Troubleshoot solutions by using Application Insights",
+        "name": "insights"
+    },
+    {
+        "color": "0189C9",
+        "description": "Implement API Management",
+        "name": "api-management"
+    },
+    {
+        "color": "027A6D",
+        "description": "Develop event-based solutions",
+        "name": "event-based"
+    },
+    {
+        "color": "8CCF97",
+        "description": "Develop message-based solutions",
+        "name": "message-based"
+    }
+]
