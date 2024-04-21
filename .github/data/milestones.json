@@ -1,22 +1,24 @@
-[
-    {
-        "description": "ℹ️ 25-30% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-azure-compute-solutions-2530) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-azure--compute-solutions-1-of-5)",
-        "title": "Develop Azure compute solutions"
-    },
-    {
-        "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-for-azure-storage-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-for-azure-sttorage-segment-2-of-5)",
-        "title": "Develop for Azure storage"
-    },
-    {
-        "description": "ℹ️ 20-25% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-azure-security-2025)🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-implement-azure-securiity-segment-3-of-5)",
-        "title": "Implement Azure security"
-    },
-    {
-        "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#monitor-troubleshoot-and-optimize-azure-solutions-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az--204-monitor-troubleshoot-and-optimize-azure-solutions-segment-4-of-5)",
-        "title": "Monitor, troubleshoot, and optimize Azure solutions"
-    },
-    {
-        "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#connect-to-and-consume-azure-services-and-third-party-services-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/prepparing-for-az-204-connect-to-and-consume-azure-services-and-third-party-services-segment-5-of-5)",
-        "title": "Connect to and consume Azure services and third-party services"
-    }
-]
+{
+    "milestones": [
+        {
+            "description": "ℹ️ 25-30% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-azure-compute-solutions-2530) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-azure--compute-solutions-1-of-5)",
+            "title": "Develop Azure compute solutions"
+        },
+        {
+            "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#develop-for-azure-storage-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-develop-for-azure-sttorage-segment-2-of-5)",
+            "title": "Develop for Azure storage"
+        },
+        {
+            "description": "ℹ️ 20-25% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#implement-azure-security-2025)🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-204-implement-azure-securiity-segment-3-of-5)",
+            "title": "Implement Azure security"
+        },
+        {
+            "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#monitor-troubleshoot-and-optimize-azure-solutions-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az--204-monitor-troubleshoot-and-optimize-azure-solutions-segment-4-of-5)",
+            "title": "Monitor, troubleshoot, and optimize Azure solutions"
+        },
+        {
+            "description": "ℹ️ 15-20% 📖 [Study guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-204#connect-to-and-consume-azure-services-and-third-party-services-1520) 🎥 [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/prepparing-for-az-204-connect-to-and-consume-azure-services-and-third-party-services-segment-5-of-5)",
+            "title": "Connect to and consume Azure services and third-party services"
+        }
+    ]
+}
