@@ -1,5 +1,4 @@
 ﻿using Shop.Models;
-using Shop.Pages;
 using System.Security.Claims;
 
 namespace Shop.Services
