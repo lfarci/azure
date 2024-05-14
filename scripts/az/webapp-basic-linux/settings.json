@@ -1,0 +1,10 @@
+[
+    {
+        "name": "THIS_AN_ENV_VAR",
+        "value": "value1"
+    },
+    {
+        "name": "THIS_IS_ANOTHER_ENV_VAR",
+        "value": "value2"
+    }
+]
