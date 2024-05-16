@@ -1,0 +1,13 @@
+[
+    {
+        "name": "name-1",
+        "value": "conn-string-1",
+        "type": "Custom",
+        "slotSetting": false
+    },
+    {
+        "name": "name-2",
+        "value": "conn-string-2",
+        "type": "Custom"
+    }
+]
