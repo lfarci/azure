@@ -10,6 +10,9 @@ cd $project_root
 . run.sh
 
 # Wait for the script to complete and try the application out
+
+# Don't forget to clean once you're done:
+. clean.sh
 ```
 
 # Notes
