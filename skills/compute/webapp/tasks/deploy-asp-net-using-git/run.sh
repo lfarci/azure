@@ -20,7 +20,7 @@ echo "Successfully created resource group named $resourceGroupName."
 
 az deployment group create \
     --resource-group $resourceGroupName \
-    --template-file "$project_root/templates/template.json" \
+    --template-file "$project_root/templates/basic-linux.json" \
     --parameters webAppName=$applicationName sku=$pricingTier linuxFxVersion=$stack location=$location
 
 echo "Successfully created web app named $applicationName."
