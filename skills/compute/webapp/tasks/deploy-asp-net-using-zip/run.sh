@@ -29,7 +29,7 @@ echo "Successfully created web app named $applicationName."
 az webapp deployment source config-zip \
     --resource-group $resourceGroupName \
     --name $applicationName \
-    --src $project_root/app.zip
+    --src $project_root/deploy-asp-net-using-zip/app.zip
 
 echo "Successfully deployed code from $project_root/app.zip to $applicationName."
 
