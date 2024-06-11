@@ -31,7 +31,7 @@ az webapp deployment source config-local-git \
     --resource-group $resourceGroupName
 
 mkdir -p repo
-cp $project_root/app/* repo
+cp $project_root/dotnet/WeatherForecast* repo
 cd repo
 git init
 git add .
