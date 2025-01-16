@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "lfarci01": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_STORAGE_ACCOUNT_URI": "https://lfarci01.blob.core.windows.net/",
+        "AZURE_TENANT_ID": "ffa5591d-cae2-492c-8674-129a6be07489"
+      }
+    }
+  }
+}

@@ -1,11 +1,7 @@
-@description('Cosmos DB account name, max length 44 characters, lowercase')
-param accountName string = 'lfarci-discover-cosmos-db-account'
+param databaseAccounts_lfarci_discover_cosmos_db_account_name string = 'lfarci-discover-cosmos-db-account'
 
-@description('Location for the Cosmos DB account.')
-param location string = resourceGroup().location
-
-resource account 'Microsoft.DocumentDB/databaseAccounts@2024-05-15' = {
-  name: accountName
+resource databaseAccounts_lfarci_discover_cosmos_db_account_name_resource 'Microsoft.DocumentDB/databaseAccounts@2024-05-15' = {
+  name: databaseAccounts_lfarci_discover_cosmos_db_account_name
   location: 'Germany West Central'
   tags: {
     defaultExperience: 'Core (SQL)'
@@ -69,13 +65,13 @@ resource account 'Microsoft.DocumentDB/databaseAccounts@2024-05-15' = {
 }
 
 resource databaseAccounts_lfarci_discover_cosmos_db_account_name_00000000_0000_0000_0000_000000000001 'Microsoft.DocumentDB/databaseAccounts/sqlRoleDefinitions@2024-05-15' = {
-  parent: account
+  parent: databaseAccounts_lfarci_discover_cosmos_db_account_name_resource
   name: '00000000-0000-0000-0000-000000000001'
   properties: {
     roleName: 'Cosmos DB Built-in Data Reader'
     type: 'BuiltInRole'
     assignableScopes: [
-      account.id
+      databaseAccounts_lfarci_discover_cosmos_db_account_name_resource.id
     ]
     permissions: [
       {
@@ -92,13 +88,13 @@ resource databaseAccounts_lfarci_discover_cosmos_db_account_name_00000000_0000_0
 }
 
 resource databaseAccounts_lfarci_discover_cosmos_db_account_name_00000000_0000_0000_0000_000000000002 'Microsoft.DocumentDB/databaseAccounts/sqlRoleDefinitions@2024-05-15' = {
-  parent: account
+  parent: databaseAccounts_lfarci_discover_cosmos_db_account_name_resource
   name: '00000000-0000-0000-0000-000000000002'
   properties: {
     roleName: 'Cosmos DB Built-in Data Contributor'
     type: 'BuiltInRole'
     assignableScopes: [
-      account.id
+      databaseAccounts_lfarci_discover_cosmos_db_account_name_resource.id
     ]
     permissions: [
       {
