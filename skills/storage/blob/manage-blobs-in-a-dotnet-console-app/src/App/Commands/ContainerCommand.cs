@@ -54,6 +54,32 @@ namespace App
             return $"Container named {name} has been deleted successfully.";
         }
 
+        private string SetContainer()
+        {
+            if (_app.LastLineTokens.Length < 3)
+            {
+                return "Container: missing container name.";
+            }
+
+            var name = _app.LastLineTokens[2];
+
+            if (!_app.Storage.Contains(name))
+            {
+                return $"Container named {name} does not exist.";
+            }
+
+            _app.CurrentContainerName = name;
+
+            return $"Current container set to {name}.";
+        }
+
+        private string UnsetContainer()
+        {
+            _app.CurrentContainerName = string.Empty;
+
+            return $"Current container has been unset.";
+        }
+
         public override string Run()
         {
             if (_app.LastLineTokens.Length < 2)
@@ -68,6 +94,8 @@ namespace App
                 "list" => ListContainers(),
                 "create" => CreateContainer(),
                 "delete" => DeleteContainer(),
+                "set" => SetContainer(),
+                "unset" => UnsetContainer(),
                 _ => "Container: unknown subcommand.",
             };
         }

@@ -18,9 +18,18 @@ internal class ConsoleApp
     public string[] LastLineTokens => _lastLine.Split(' ');
     public BlobStorage Storage => _blobStorage;
 
+    public string CurrentContainerName { get; internal set; } = string.Empty;
+
     private Command? Prompt()
     {
-        Console.Write(_prompt);
+        if (string.IsNullOrEmpty(CurrentContainerName))
+        { 
+            Console.Write(_prompt);
+        }
+        else
+        {
+            Console.Write($"{CurrentContainerName} {_prompt}");
+        }
 
         _lastLine = Console.ReadLine() ?? string.Empty;
         
