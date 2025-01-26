@@ -2,6 +2,7 @@
 using Azure.Core;
 using Azure.Identity;
 using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
 
 internal class BlobStorage
 {
@@ -32,6 +33,11 @@ internal class BlobStorage
         return containerClient.Exists();
     }
 
+    public BlobContainerClient GetContainer(string containerName)
+    {
+        return Client.GetBlobContainerClient(containerName);
+    }
+
     public IList<string> ListContainers()
     {
         return Client.GetBlobContainers().Select(container => container.Name).ToList();
@@ -40,7 +46,7 @@ internal class BlobStorage
     public void CreateContainer(string containerName)
     {
         var containerClient = Client.GetBlobContainerClient(containerName);
-        containerClient.CreateIfNotExists();
+        containerClient.CreateIfNotExists(PublicAccessType.Blob);
     }
 
     public void DeleteContainer(string containerName)

@@ -52,7 +52,15 @@ internal class ConsoleApp
                 break;
             }
 
-            Console.WriteLine(command.Run());
+
+            try
+            {
+                Console.WriteLine(command.Run());
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Internal error: {ex.Message}.");
+            }
         }
     }
 

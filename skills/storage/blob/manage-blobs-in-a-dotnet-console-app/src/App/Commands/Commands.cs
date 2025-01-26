@@ -24,6 +24,7 @@
             {
                 "exit" => new ExitCommand(_app),
                 "container" => new ContainerCommand(_app),
+                "blob" => new BlobCommand(_app),
                 "file" => new FileCommand(_app),
                 _ => null,
             };
