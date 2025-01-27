@@ -107,7 +107,51 @@ namespace App
             output.AppendLine($"Public access: {properties.PublicAccess}");
             output.AppendLine($"Last modified: {properties.LastModified}");
 
+
+            if (properties.Metadata.Count > 0)
+            {
+                output.AppendLine("Metadata:");
+                foreach (var metadataItem in properties.Metadata)
+                {
+                    output.AppendLine($"\t- {metadataItem.Key}: {metadataItem.Value}");
+                }
+            }
+
             return output.ToString();
+        }
+
+        private string SetMetadata()
+        {
+            if (string.IsNullOrEmpty(_app.CurrentContainerName))
+            {
+                return "No current container set.";
+            }
+
+            if (_app.LastLineTokens.Length < 3)
+            {
+                return "Container: missing key=value pairs.";
+            }
+
+            var tokens = _app.LastLineTokens.Skip(2); // Skip command and subcommand
+            var metadata = new Dictionary<string, string>();
+
+            foreach (var token in tokens)
+            {
+                var parts = token.Split('=');
+                
+                if (parts.Length != 2)
+                {
+                    return "Container: invalid key=value pair.";
+                }
+
+                metadata[parts[0]] = parts[1];
+            }
+
+            var container = _app.Storage.GetContainer(_app.CurrentContainerName);
+
+            container.SetMetadata(metadata);
+
+            return "Metadata set successfully.";
         }
 
         public override string Run()
@@ -127,6 +171,7 @@ namespace App
                 "set" => SetContainer(),
                 "unset" => UnsetContainer(),
                 "show" => ShowCurrentContainer(),
+                "metadata" => SetMetadata(),
                 _ => "Container: unknown subcommand.",
             };
         }
