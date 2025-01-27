@@ -80,6 +80,36 @@ namespace App
             return $"Current container has been unset.";
         }
 
+        private string ShowCurrentContainer()
+        {
+            if (string.IsNullOrEmpty(_app.CurrentContainerName))
+            {
+                return "No current container set.";
+            }
+
+            if (!_app.Storage.Contains(_app.CurrentContainerName))
+            {
+                return $"Current container {_app.CurrentContainerName} does not exist.";
+            }
+
+            var container = _app.Storage.GetContainer(_app.CurrentContainerName);
+
+            if (container == null)
+            {
+                return $"Current container {_app.CurrentContainerName} could not be resolved.";
+            }
+
+            var properties = container.GetProperties().Value;
+            var output = new StringBuilder();
+
+            output.AppendLine($"Name: {_app.CurrentContainerName}");
+            output.AppendLine($"URI: {container.Uri}");
+            output.AppendLine($"Public access: {properties.PublicAccess}");
+            output.AppendLine($"Last modified: {properties.LastModified}");
+
+            return output.ToString();
+        }
+
         public override string Run()
         {
             if (_app.LastLineTokens.Length < 2)
@@ -96,6 +126,7 @@ namespace App
                 "delete" => DeleteContainer(),
                 "set" => SetContainer(),
                 "unset" => UnsetContainer(),
+                "show" => ShowCurrentContainer(),
                 _ => "Container: unknown subcommand.",
             };
         }
