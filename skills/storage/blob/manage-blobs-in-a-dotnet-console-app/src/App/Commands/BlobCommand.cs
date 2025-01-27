@@ -5,8 +5,6 @@ namespace App
 {
     internal class BlobCommand : Command
     {
-        private string _downloadDirectory = Path.GetTempPath();
-
         public BlobCommand(ConsoleApp app) : base(app)
         {
         }
@@ -38,7 +36,14 @@ namespace App
 
         private string SetDownloadDirectory()
         {
-            throw new NotImplementedException();
+            if (_app.LastLineTokens.Length < 3)
+            {
+                return "Blob: missing download directory.";
+            }
+
+            _app.DownloadDirectory = _app.LastLineTokens[2];
+
+            return $"Download directory set to {_app.DownloadDirectory}.";
         }
 
         private string DeleteBlob()
@@ -67,10 +72,11 @@ namespace App
             }
 
             var name = _app.LastLineTokens[2];
+            var targetPath = Path.Combine(_app.DownloadDirectory, name);
 
-            container.GetBlobClient(name).DownloadTo(_downloadDirectory);
+            container.GetBlobClient(name).DownloadTo(targetPath);
 
-            return $"Blob named {name} has been downloaded successfully at {_downloadDirectory}.";
+            return $"Blob named {name} has been downloaded successfully at {targetPath}.";
         }
 
         private string UploadBlob()

@@ -19,6 +19,7 @@ internal class ConsoleApp
     public BlobStorage Storage => _blobStorage;
 
     public string CurrentContainerName { get; internal set; } = string.Empty;
+    public string DownloadDirectory = Path.GetTempPath();
 
     private Command? Prompt()
     {

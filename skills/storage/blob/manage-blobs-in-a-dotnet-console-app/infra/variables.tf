@@ -21,10 +21,10 @@ variable "storage_account_name" {
   default     = "demo"
 }
 
-variable "container_name" {
-  type        = string
-  description = "The name of the Storage Container"
-  default     = "demo"
+variable "container_names" {
+  type        = list(string)
+  description = "Names of the container to create"
+  default     = [ "items" ]
 }
 
 variable "location" {
